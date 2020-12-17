@@ -22,9 +22,11 @@ Please note it might take longer the first time for the server to start. There a
 `./server.sh train [de|en|sv]`
 `./server.sh train ./examples/coffee_bot en`
 
-### Run using MacOS Terminal 
+### Run using MacOS Terminal (Python 3.6.9)
 `conda activate rasa`
 `cd examples/rasa_bot`
+
+`pip install "rasa[transformers]`
 
 `rasa train --config ./config/models/en/config.yml --domain ./config/models/en/domain.yml --data ./config/models/en/data --out "./models" --fixed-model-name "chat-model-en"`
 
