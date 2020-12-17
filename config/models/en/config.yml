@@ -19,7 +19,7 @@ pipeline:
 
 
   - name: HFTransformersNLP
-    model_weights: "bert-base-uncased"
+    model_weights: "zanelim/singbert"
     model_name: "bert"
   - name: LanguageModelTokenizer
   - name: LanguageModelFeaturizer
