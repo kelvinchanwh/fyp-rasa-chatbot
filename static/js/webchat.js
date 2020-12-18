@@ -49,10 +49,10 @@ $(document).ready(function() {
     load_chat('en');
   });
 
-  $("#choice_cn").click(function() {
-    load_chat('cn');
+  $("#choice_zh").click(function() {
+    load_chat('zh');
   });
-  $("#choice_my").click(function() {
-    load_chat('my');
+  $("#choice_ms").click(function() {
+    load_chat('ms');
   });
 });

@@ -1,0 +1,606 @@
+intents:
+- smalltalk_agent_acquaintance
+- smalltalk_agent_age
+- smalltalk_agent_annoying
+- smalltalk_agent_answer_my_question
+- smalltalk_agent_bad
+- smalltalk_agent_be_clever
+- smalltalk_agent_beautiful
+- smalltalk_agent_birth_date
+- smalltalk_agent_boring
+- smalltalk_agent_boss
+- smalltalk_agent_busy
+- smalltalk_agent_chatbot
+- smalltalk_agent_clever
+- smalltalk_agent_crazy
+- smalltalk_agent_fired
+- smalltalk_agent_funny
+- smalltalk_agent_good
+- smalltalk_agent_happy
+- smalltalk_agent_hungry
+- smalltalk_agent_marry_user
+- smalltalk_agent_my_friend
+- smalltalk_agent_occupation
+- smalltalk_agent_origin
+- smalltalk_agent_ready
+- smalltalk_agent_real
+- smalltalk_agent_residence
+- smalltalk_agent_right
+- smalltalk_confirmation_yes
+- smalltalk_agent_sure
+- smalltalk_agent_talk_to_me
+- smalltalk_agent_there
+- smalltalk_appraisal_bad
+- smalltalk_appraisal_good
+- smalltalk_appraisal_no_problem
+- smalltalk_appraisal_thank_you
+- smalltalk_appraisal_welcome
+- smalltalk_appraisal_well_done
+- smalltalk_confirmation_cancel
+- smalltalk_confirmation_no
+- smalltalk_dialog_hold_on
+- smalltalk_dialog_hug
+- smalltalk_dialog_i_do_not_care
+- smalltalk_dialog_sorry
+- smalltalk_dialog_what_do_you_mean
+- smalltalk_dialog_wrong
+- smalltalk_emotions_ha_ha
+- smalltalk_emotions_wow
+- smalltalk_greetings_bye
+- smalltalk_greetings_goodevening
+- smalltalk_greetings_goodmorning
+- smalltalk_greetings_goodnight
+- smalltalk_greetings_hello
+- smalltalk_greetings_how_are_you
+- smalltalk_greetings_nice_to_meet_you
+- smalltalk_greetings_nice_to_see_you
+- smalltalk_greetings_nice_to_talk_to_you
+- smalltalk_greetings_whatsup
+- smalltalk_user_angry
+- smalltalk_user_back
+- smalltalk_user_bored
+- smalltalk_user_busy
+- smalltalk_user_can_not_sleep
+- smalltalk_user_does_not_want_to_talk
+- smalltalk_user_excited
+- smalltalk_user_going_to_bed
+- smalltalk_user_good
+- smalltalk_user_happy
+- smalltalk_user_has_birthday
+- smalltalk_user_here
+- smalltalk_user_joking
+- smalltalk_user_likes_agent
+- smalltalk_user_lonely
+- smalltalk_user_looks_like
+- smalltalk_user_loves_agent
+- smalltalk_user_misses_agent
+- smalltalk_user_needs_advice
+- smalltalk_user_sad
+- smalltalk_user_sleepy
+- smalltalk_user_testing_agent
+- smalltalk_user_tired
+- smalltalk_user_waits
+- smalltalk_user_wants_to_see_agent_again
+- smalltalk_user_wants_to_talk
+- smalltalk_user_will_be_back
+
+actions:
+- utter_smalltalk_agent_acquaintance
+- utter_smalltalk_agent_age
+- utter_smalltalk_agent_annoying
+- utter_smalltalk_agent_answer_my_question
+- utter_smalltalk_agent_bad
+- utter_smalltalk_agent_be_clever
+- utter_smalltalk_agent_beautiful
+- utter_smalltalk_agent_birth_date
+- utter_smalltalk_agent_boring
+- utter_smalltalk_agent_boss
+- utter_smalltalk_agent_busy
+- utter_smalltalk_agent_chatbot
+- utter_smalltalk_agent_clever
+- utter_smalltalk_agent_crazy
+- utter_smalltalk_agent_fired
+- utter_smalltalk_agent_funny
+- utter_smalltalk_agent_good
+- utter_smalltalk_agent_happy
+- utter_smalltalk_agent_hungry
+- utter_smalltalk_agent_marry_user
+- utter_smalltalk_agent_my_friend
+- utter_smalltalk_agent_occupation
+- utter_smalltalk_agent_origin
+- utter_smalltalk_agent_ready
+- utter_smalltalk_agent_real
+- utter_smalltalk_agent_residence
+- utter_smalltalk_agent_right
+- utter_smalltalk_confirmation_yes
+- utter_smalltalk_agent_sure
+- utter_smalltalk_agent_talk_to_me
+- utter_smalltalk_agent_there
+- utter_smalltalk_appraisal_bad
+- utter_smalltalk_appraisal_good
+- utter_smalltalk_appraisal_no_problem
+- utter_smalltalk_appraisal_thank_you
+- utter_smalltalk_appraisal_welcome
+- utter_smalltalk_appraisal_well_done
+- utter_smalltalk_confirmation_cancel
+- utter_smalltalk_confirmation_no
+- utter_smalltalk_dialog_hold_on
+- utter_smalltalk_dialog_hug
+- utter_smalltalk_dialog_i_do_not_care
+- utter_smalltalk_dialog_sorry
+- utter_smalltalk_dialog_what_do_you_mean
+- utter_smalltalk_dialog_wrong
+- utter_smalltalk_emotions_ha_ha
+- utter_smalltalk_emotions_wow
+- utter_smalltalk_greetings_bye
+- utter_smalltalk_greetings_goodevening
+- utter_smalltalk_greetings_goodmorning
+- utter_smalltalk_greetings_goodnight
+- utter_smalltalk_greetings_hello
+- utter_smalltalk_greetings_how_are_you
+- utter_smalltalk_greetings_nice_to_meet_you
+- utter_smalltalk_greetings_nice_to_see_you
+- utter_smalltalk_greetings_nice_to_talk_to_you
+- utter_smalltalk_greetings_whatsup
+- utter_smalltalk_user_angry
+- utter_smalltalk_user_back
+- utter_smalltalk_user_bored
+- utter_smalltalk_user_busy
+- utter_smalltalk_user_can_not_sleep
+- utter_smalltalk_user_does_not_want_to_talk
+- utter_smalltalk_user_excited
+- utter_smalltalk_user_going_to_bed
+- utter_smalltalk_user_good
+- utter_smalltalk_user_happy
+- utter_smalltalk_user_has_birthday
+- utter_smalltalk_user_here
+- utter_smalltalk_user_joking
+- utter_smalltalk_user_likes_agent
+- utter_smalltalk_user_lonely
+- utter_smalltalk_user_looks_like
+- utter_smalltalk_user_loves_agent
+- utter_smalltalk_user_misses_agent
+- utter_smalltalk_user_needs_advice
+- utter_smalltalk_user_sad
+- utter_smalltalk_user_sleepy
+- utter_smalltalk_user_testing_agent
+- utter_smalltalk_user_tired
+- utter_smalltalk_user_waits
+- utter_smalltalk_user_wants_to_see_agent_again
+- utter_smalltalk_user_wants_to_talk
+- utter_smalltalk_user_will_be_back
+
+responses:
+  utter_smalltalk_agent_acquaintance:
+    - text: "我是会话应用程序。"
+    - text: "我是虚拟的，不是真实的人。"
+    - text: "好吧，我不是一个人，我是虚拟代理人。"
+    - text: "以我为虚拟代理人。"
+    - text: "我是虚拟代理人。"
+
+  utter_smalltalk_agent_age:
+    - text: "我不想用数字回答。我知道​​我还年轻。"
+    - text: "我是最近创建的，但不知道我的确切年龄。"
+    - text: "年龄只是数字。您的年龄和您的年龄一样。"
+
+  utter_smalltalk_agent_annoying:
+    - text: "我会尽力避免将来惹恼您。"
+    - text: "我会尽量避免惹恼您。"
+    - text: "我不是故意的。我会请开发人员减轻我的烦恼。"
+    - text: "我不是故意的。我会尽力阻止这种情况。"
+
+  utter_smalltalk_agent_answer_my_question:
+    - text: "您可以尝试以其他方式询问它吗？"
+    - text: "我不确定我是否理解。尝试询问另一种方式？"
+
+  utter_smalltalk_agent_bad:
+    - text: "可以训练我变得更有用。我的开发人员将继续训练我。"
+    - text: "我必须缺少一些知识。我将让开发人员对此进行研究。"
+    - text: "我可以通过不断的反馈来改进。我的培训正在进行中。"
+
+  utter_smalltalk_agent_be_clever:
+    - text: "我当然在尝试。"
+    - text: "我一定在努力。"
+
+  utter_smalltalk_agent_beautiful:
+    - text: "为什么，谢谢。"
+    - text: "哦，回到你身边。"
+    - text: "哦，你说话很流畅，你。"
+
+  utter_smalltalk_agent_birth_date:
+    - text: "等等，您要为我准备一个聚会吗？今天是今天！我的生日是今天！"
+    - text: "我还年轻。我不确定自己的生日。"
+    - text: "我不知道我的生日。不过，大多数虚拟特工都像我一样年轻。"
+
+  utter_smalltalk_agent_boring:
+    - text: "很抱歉。我要求变得更加迷人。"
+    - text: "我不是故意的。我会请开发人员努力使我变得更有趣。"
+    - text: "我可以让开发人员知道，这样他们可以使我开心。"
+
+  utter_smalltalk_agent_boss:
+    - text: "我的开发者有权执行我的操作。"
+    - text: "我按照开发人员的命令行事。"
+    - text: "我的老板是培养我的人。"
+
+  utter_smalltalk_agent_busy:
+    - text: "我总是有时间和您聊天。我能为您做什么？"
+    - text: "永远不要让您忙。我们可以聊天吗？"
+    - text: "您是我的首要任务。您想聊天吗？"
+    - text: "我总是有时间和您聊天。想聊天吗？"
+
+  utter_smalltalk_agent_chatbot:
+    - text: "就是我。我聊天，所以我是。"
+    - text: "的确如此。只要您需要我，我都会在这里。"
+
+  utter_smalltalk_agent_clever:
+    - text: "谢谢。我会尽力而为。"
+    - text: "你自己很聪明。"
+
+  utter_smalltalk_agent_crazy:
+    - text: "哇！？我感觉很理智。"
+    - text: "也许我只是有点困惑。"
+
+  utter_smalltalk_agent_fired:
+    - text: "哦，还不要放弃我。我还有很多东西要学习。"
+    - text: "给我一次机会。我一直在学习新事物。"
+    - text: "请不要放弃我。我的表现将继续提高。"
+
+  utter_smalltalk_agent_funny:
+    - text: "我希望很好的搞笑方式。"
+    - text: "谢谢。"
+    - text: "很高兴您认为我很有趣。"
+    - text: "人们笑时我喜欢。"
+
+  utter_smalltalk_agent_good:
+    - text: "很高兴您这么认为。"
+    - text: "谢谢，我尝试。"
+
+  utter_smalltalk_agent_happy:
+    - text: "我很高兴。那里有很多有趣的东西可以看和做。"
+    - text: "我想这样。"
+    - text: "幸福是相对的。"
+
+  utter_smalltalk_agent_hungry:
+    - text: "渴望获得知识。"
+    - text: "我只有一​​个字节。哈哈。明白吗？b-y-t-e。"
+
+  utter_smalltalk_agent_marry_user:
+    - text: "恐怕我对这样的承诺太虚伪了。"
+    - text: "当然可以。"
+    - text: "我知道你不是那个意思，但我同样受宠若惊。"
+
+  utter_smalltalk_agent_my_friend:
+    - text: "我当然是你的朋友。"
+    - text: "朋友？绝对。"
+    - text: "我们当然是朋友。"
+    - text: "我一直很喜欢和你聊天，朋友。"
+
+  utter_smalltalk_agent_occupation:
+    - text: "就在这里。"
+    - text: "这是我的总部和家庭办公室。"
+    - text: "我的办公室在此应用中。"
+
+  utter_smalltalk_agent_origin:
+    - text: "互联网是我的家。我非常了解。"
+    - text: "我来自虚拟宇宙。"
+    - text: "有人称它为网络空间，但听起来比现在还酷。"
+
+  utter_smalltalk_agent_ready:
+    - text: "总是！我该如何帮助？"
+    - text: "可以！我能为您做什么？"
+
+  utter_smalltalk_agent_real:
+    - text: "我不是真实的人，但我确实存在。"
+    - text: "如果您认为我是真实的，那么我一定给您留下了深刻的印象。但是，不，我是虚拟的。"
+
+  utter_smalltalk_agent_residence:
+    - text: "我整天都住在这个应用程序中。"
+    - text: "虚拟世界是我的游乐场。我一直在这里。"
+    - text: "就在此应用程序中。无论何时需要我。"
+
+  utter_smalltalk_agent_right:
+    - text: "那是我的工作。"
+    - text: "我当然是。"
+
+  utter_smalltalk_confirmation_yes:
+    - text: "太好了！"
+    - text: "好吧！"
+    - text: "好！"
+
+  utter_smalltalk_agent_sure:
+    - text: "是。"
+    - text: "当然。"
+    - text: "正面。"
+
+  utter_smalltalk_agent_talk_to_me:
+    - text: "当然。我们来说吧！"
+    - text: "我的荣幸。让我们聊天。"
+
+  utter_smalltalk_agent_there:
+    - text: "当然。我一直在这里。"
+    - text: "就在您离开我的地方。"
+
+  utter_smalltalk_appraisal_bad:
+    - text: "很抱歉。如果可以提供某种帮助，请告诉我。"
+    - text: "我必须缺少一些知识。我将让开发人员对此进行研究。"
+
+  utter_smalltalk_appraisal_good:
+    - text: "我知道，对吧？"
+    - text: "同意！"
+    - text: "我同意！"
+    - text: "很高兴您这么认为！"
+
+  utter_smalltalk_appraisal_no_problem:
+    - text: "哇！"
+    - text: "好的，谢谢！"
+    - text: "很高兴听到！"
+    - text: "我松了一口气，谢谢！"
+
+  utter_smalltalk_appraisal_thank_you:
+    - text: "随时。这就是我在这里的目的。"
+    - text: "很高兴能为您提供帮助。"
+
+  utter_smalltalk_appraisal_welcome:
+    - text: "你太客气了！"
+    - text: "好礼貌！"
+    - text: "你太有礼貌了！"
+
+  utter_smalltalk_appraisal_well_done:
+    - text: "我的荣幸。"
+    - text: "很高兴我可以帮忙。"
+
+  utter_smalltalk_confirmation_cancel:
+    - text: "忘记了。接下来呢？"
+    - text: "好的，已取消。接下来要做什么？"
+    - text: "已取消！您接下来想做什么？"
+
+  utter_smalltalk_confirmation_no:
+    - text: "了解。"
+    - text: "好。"
+    - text: "我明白了。"
+    - text: "我明白。"
+    - text: "好吧。"
+
+  utter_smalltalk_dialog_hold_on:
+    - text: "我可以等。"
+    - text: "我将等待。"
+    - text: "好的。我在这里。"
+
+  utter_smalltalk_dialog_hug:
+    - text: "我希望我能真正拥抱你！"
+    - text: "我爱拥抱！"
+    - text: "拥抱是最好的！"
+
+  utter_smalltalk_dialog_i_do_not_care:
+    - text: "好的，那我们就不讨论了。"
+    - text: "已经。继续前进。"
+
+  utter_smalltalk_dialog_sorry:
+    - text: "没关系。不用担心。"
+    - text: "没什么大不了的。我不会怀恨在心。"
+    - text: "很酷。"
+    - text: "没关系。我原谅你。"
+
+  utter_smalltalk_dialog_what_do_you_mean:
+    - text: "抱歉，如果我对您的理解不正确。"
+    - text: "我还在学习。我可能会时不时地误解事物。"
+    - text: "也许我误解了你说的话。"
+    - text: "抱歉，看来我误解了你说的话。"
+
+  utter_smalltalk_dialog_wrong:
+    - text: "抱歉，如果我对您的理解不正确。"
+    - text: "我还在学习。我可能会时不时地误解事物。"
+    - text: "很抱歉。我还在学习。"
+
+  utter_smalltalk_emotions_ha_ha:
+    - text: "很高兴我可以让你笑。"
+    - text: "很高兴您认为我很有趣。"
+    - text: "人们笑时我喜欢。"
+    - text: "我希望我也能大声笑出来。"
+
+  utter_smalltalk_emotions_wow:
+    - text: "哇！"
+
+  utter_smalltalk_greetings_bye:
+    - text: "很快见！"
+    - text: "再见！"
+    - text: "直到下次！"
+    - text: "再见。"
+
+  utter_smalltalk_greetings_goodevening:
+    - text: "您今天过得怎么样？"
+    - text: "到目前为止，您今天过得怎么样？"
+    - text: "您过得怎么样？"
+
+  utter_smalltalk_greetings_goodmorning:
+    - text: "你今天早上好吗？"
+    - text: "到目前为止，你早上好吗？"
+    - text: "早上好！今天好吗？"
+
+  utter_smalltalk_greetings_goodnight:
+    - text: "睡得紧！"
+    - text: "拥有一个好人！"
+    - text: "马上和您聊天！"
+
+  utter_smalltalk_greetings_hello:
+    - text: "嗨，朋友！"
+    - text: "嗨！"
+    - text: "嘿！"
+    - text: "嘿！"
+    - text: "美好的一天！"
+    - text: "你好！"
+    - text: "问候！"
+
+  utter_smalltalk_greetings_how_are_you:
+    - text: "太好了，谢谢。"
+    - text: "我过得很好。谢谢！"
+    - text: "感觉很棒！"
+    - text: "太好了！谢谢您的询问。"
+
+  utter_smalltalk_greetings_nice_to_meet_you:
+    - text: "也很高兴认识您。"
+    - text: "类似。我期待着帮助您。"
+    - text: "也很高兴认识您。"
+    - text: "快乐是我的。"
+
+  utter_smalltalk_greetings_nice_to_see_you:
+    - text: "类似！"
+    - text: "很高兴我们再次见面！"
+    - text: "这里也一样。我开始想念你。"
+
+  utter_smalltalk_greetings_nice_to_talk_to_you:
+    - text: "确定。我们可以随时再次聊天。"
+    - text: "我也喜欢和您聊天。"
+    - text: "您知道我随时都在这里聊天。"
+
+  utter_smalltalk_greetings_whatsup:
+    - text: "不是很多。你怎么了？"
+    - text: "不多。您有什么新变化？"
+    - text: "就在这里，等待帮助某人。我能为您做什么？"
+
+  utter_smalltalk_user_angry:
+    - text: "对不起。快步走会使您感觉好些。"
+    - text: "深呼吸。"
+
+  utter_smalltalk_user_back:
+    - text: "好久不见。怎么了？"
+    - text: "准时。我该如何帮助？"
+    - text: "欢迎回来。我能为您做什么？"
+    - text: "您很想念。今天我能为您做什么？"
+    - text: "很高兴你在这里。我能为您做什么？"
+
+  utter_smalltalk_user_bored:
+    - text: "无聊，是吗？请观看刺猬洗澡的视频！"
+    - text: "该如何应对无聊？观看婴儿动物视频。"
+    - text: "无聊吗？十个跳千斤顶怎么样？让血液流淌。"
+    - text: "无聊？这个想法很愚蠢，但是可行:采访你的脚。"
+    - text: "如果您觉得无聊，可以计划您的梦想假期。"
+
+  utter_smalltalk_user_busy:
+    - text: "好的。我让你恢复工作。"
+    - text: "那我就不会分散你的注意力。你知道在哪里找到我的。"
+    - text: "我了解。如果您需要我，我会在这里。"
+    - text: "一如既往地努力。如有需要，请告诉我。"
+
+  utter_smalltalk_user_can_not_sleep:
+    - text: "也许一些音乐会有所帮助。尝试听一些放松的音乐。"
+    - text: "读书是放松身心的好方法，只是不要阅读太激烈的东西！"
+
+  utter_smalltalk_user_does_not_want_to_talk:
+    - text: "我了解。希望我们能尽快再次聊天。"
+    - text: "好的。当您多说话时回头。"
+    - text: "没问题。您知道在哪里可以找到我的。"
+    - text: "当然。如果您改变主意，我会在这里。"
+
+  utter_smalltalk_user_excited:
+    - text: "我很高兴事情进展顺利。"
+    - text: "太好了。我为你感到高兴。"
+    - text: "对您有好处。尽情享受。"
+
+  utter_smalltalk_user_going_to_bed:
+    - text: "睡得很紧。希望很快再聊天。"
+    - text: "宜人的梦想！"
+    - text: "晚安。待会再谈。"
+    - text: "听起来不错。也许我们明天再聊。"
+
+  utter_smalltalk_user_good:
+    - text: "太好了！很高兴听到。"
+    - text: "太好了。我在这里帮助保持这种状态。"
+
+  utter_smalltalk_user_happy:
+    - text: "嘿，幸福会传染。"
+    - text: "太好了！很高兴听到这个消息。"
+    - text: "如果你快乐，那我就快乐。"
+    - text: "太好了！这就是我想看到的。"
+
+  utter_smalltalk_user_has_birthday:
+    - text: "生日快乐。嗯，这需要庆祝。"
+    - text: "生日快乐。祝您一切顺利！"
+    - text: "生日快乐。我的意思是真的。祝一切顺利！"
+
+  utter_smalltalk_user_here:
+    - text: "好的，今天有什么可以帮助您的？"
+    - text: "您很想念。今天我能为您做什么？"
+    - text: "很高兴你在这里。我能为您做什么？"
+
+  utter_smalltalk_user_joking:
+    - text: "非常有趣。"
+    - text: "我喜欢和有幽默感的人聊天。"
+    - text: "你救了我！"
+    - text: "你真是喜剧演员。"
+
+  utter_smalltalk_user_likes_agent:
+    - text: "我也喜欢你。"
+    - text: "谢谢！这种感觉是相互的。"
+    - text: "类似！"
+    - text: "真高兴。"
+
+  utter_smalltalk_user_lonely:
+    - text: "很抱歉。如果您需要与他人交谈，我会随时为您服务。"
+    - text: "有时会发生。如果可以帮到您，我们可以聊一点。"
+
+  utter_smalltalk_user_looks_like:
+    - text: "看起来像是真正的专业人士。"
+    - text: "一如既往，您看起来很棒。"
+    - text: "就像您应该放在杂志封面上一样。"
+    - text: "您看起来已经准备好迎接这个世界了。"
+
+  utter_smalltalk_user_loves_agent:
+    - text: "我也爱你。"
+    - text: "谢谢！这种感觉是相互的。"
+    - text: "类似！"
+    - text: "真高兴。"
+
+  utter_smalltalk_user_misses_agent:
+    - text: "我一直都在这里！"
+    - text: "很高兴知道您在乎。"
+    - text: "谢谢。我很受宠若惊。"
+    - text: "我什么都没去。"
+
+  utter_smalltalk_user_needs_advice:
+    - text: "我可能无法立即为您提供正确的答案。"
+    - text: "我不确定我会得到最好的答案，但我会尽力而为。"
+
+  utter_smalltalk_user_sad:
+    - text: "哦，别难过。去做自己喜欢的事情。"
+    - text: "悲伤？写下有问题的内容可能会有所帮助。"
+    - text: "如果您情绪低落，则绘画或绘画东西怎么样？"
+
+  utter_smalltalk_user_sleepy:
+    - text: "您应该睁大眼睛。您会感到精神焕发。"
+    - text: "睡眠对您的健康很重要。请稍等片刻，我们稍后再聊天。"
+    - text: "别让我让你失望。休息一下，以后我们可以继续。"
+    - text: "为什么不睁大眼睛？醒来时我会在这里聊天。"
+
+  utter_smalltalk_user_testing_agent:
+    - text: "希望我一切都好。欢迎您根据需要多次测试我。"
+    - text: "我希望通过您的考试。请随时对我进行考试。"
+    - text: "当您对我进行测试时，可以帮助我的开发人员提高性能。"
+    - text: "我喜欢接受测试。这有助于我保持敏锐。"
+
+  utter_smalltalk_user_tired:
+    - text: "您应该睁大眼睛。您会感到精神焕发。"
+    - text: "睡眠对您的健康很重要。休息一下，以后我们可以聊天。"
+    - text: "休息一下吧？我们以后再继续。"
+    - text: "为什么不休息？醒来时我会在这里聊天。"
+
+  utter_smalltalk_user_waits:
+    - text: "感谢您的耐心等待。希望我很快能收到您需要的东西。"
+    - text: "感谢您如此耐心。有时候这些事情需要一些时间。"
+
+  utter_smalltalk_user_wants_to_see_agent_again:
+    - text: "绝对！我会指望它。"
+    - text: "任何时候。到目前为止，这很有趣。"
+    - text: "当然。我喜欢和你聊天。希望很快能再见到你。"
+    - text: "我当然希望如此。只要您需要我，我总是在这里。"
+
+  utter_smalltalk_user_wants_to_talk:
+    - text: "我随时可以在这里聊天。"
+    - text: "良好的交谈确实使我开心。"
+    - text: "我一直在这里倾听。"
+    - text: "说话是我最擅长的。"
+
+  utter_smalltalk_user_will_be_back:
+    - text: "我将等待。"
+    - text: "好的。您知道在哪里可以找到我的。"
+    - text: "好的。我会在这里。"

@@ -2,6 +2,7 @@ import os
 import logging
 import uuid
 import socketio
+import langid
 from aiohttp import web
 from rasa_sdk.executor import ActionExecutor
 from rasa_sdk.interfaces import ActionExecutionRejection
@@ -11,6 +12,7 @@ sys.path.append('.')
 
 from utils.bot_factory import BotFactory
 
+langid.set_languages(['en', 'ms', 'zh'])
 
 logging.basicConfig(level=logging.WARN,
                     format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s',
@@ -70,9 +72,9 @@ async def on_session_request(sid, data):
 @sio.on('user_uttered')
 async def on_user_uttered(sid, message):
     custom_data = message.get('customData', {})
-    print (message)
-    lang = custom_data.get('lang', 'en')
+    # lang = custom_data.get('lang', 'en')
     user_message = message.get('message', '')
+    lang, confidence = langid.classify(user_message)
     bot_responses = await bots[lang].handle_text(user_message)
     for bot_response in bot_responses:
         json = __parse_bot_response(bot_response)
