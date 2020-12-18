@@ -12,8 +12,8 @@ DEFAULT_LANG = 'en'
 
 SUPPORTED_LANGS = {
   DEFAULT_LANG: 'english',
-  'de': 'german',
-  'sv': 'swedish',
+  'cn': 'chinese',
+  'my': 'malay',
 }
 
 

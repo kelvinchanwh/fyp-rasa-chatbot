@@ -70,6 +70,7 @@ async def on_session_request(sid, data):
 @sio.on('user_uttered')
 async def on_user_uttered(sid, message):
     custom_data = message.get('customData', {})
+    print (message)
     lang = custom_data.get('lang', 'en')
     user_message = message.get('message', '')
     bot_responses = await bots[lang].handle_text(user_message)
