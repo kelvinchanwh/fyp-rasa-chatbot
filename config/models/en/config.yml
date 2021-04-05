@@ -9,6 +9,7 @@ pipeline:
     "intent_tokenization_flag": False
     # Symbol on which intent should be split
     "intent_split_symbol": "_"
+  - name: RegexFeaturizer
   - name: LanguageModelFeaturizer
     model_weights: "zanelim/singbert"
     model_name: "bert"
